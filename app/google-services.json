@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228890899602",
+    "project_id": "codealpha-ecommerce",
+    "storage_bucket": "codealpha-ecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228890899602:android:794e3b8dc9110bc217624b",
+        "android_client_info": {
+          "package_name": "kmp.project.codealpha_ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1l08r_75GUZV7JZnICOa9vpXtk6s7uTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
