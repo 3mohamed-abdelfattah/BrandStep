@@ -7,4 +7,10 @@
     <string name="welcome_back">Welcome Back!</string>
     <string name="see_all">See all</string>
     <string name="offical_brand">Offical Brand</string>
+    <string name="recommended">Recommended</string>
+    <string name="profile">Profile</string>
+    <string name="my_orders">My Orders</string>
+    <string name="whishlist">Whishlist</string>
+    <string name="cart">Cart</string>
+    <string name="explorer">Explorer</string>
 </resources>
