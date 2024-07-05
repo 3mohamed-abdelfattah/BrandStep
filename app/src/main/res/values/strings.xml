@@ -4,4 +4,7 @@
     <string name="intro_text">Browse the latest styles from top brands\nGet personalized recommendations\nEnjoy fast and free shipping</string>
     <string name="let_s_get_start">Let\'s Get Start</string>
     <string name="already_have_an_account_sign_in">Already have an account?<font color="#6033ba"> Sign In</font></string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="see_all">See all</string>
+    <string name="offical_brand">Offical Brand</string>
 </resources>
