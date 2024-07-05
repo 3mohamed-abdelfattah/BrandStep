@@ -2,8 +2,6 @@ package kmp.project.codealpha_ecommerce.activity
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import kmp.project.codealpha_ecommerce.MainActivity
 import kmp.project.codealpha_ecommerce.databinding.ActivityIntroBinding
 
 class IntroActivity : BaseActivity() {
