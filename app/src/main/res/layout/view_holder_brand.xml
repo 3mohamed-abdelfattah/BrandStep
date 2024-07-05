@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"
@@ -13,21 +14,21 @@
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_weight="1"
-        android:padding="2dp"
         android:background="@drawable/grey_bg"
+        android:padding="2dp"
         tools:srcCompat="@drawable/grey_bg" />
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="12sp"
         android:layout_gravity="center_vertical"
-        android:visibility="gone"
-        tools:visibility="visible"
         android:layout_marginEnd="8dp"
-
+        android:layout_weight="1"
         android:text="title"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:textSize="12sp"
+
+        android:visibility="gone"
+        tools:visibility="visible" />
 </LinearLayout>
