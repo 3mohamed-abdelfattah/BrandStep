@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import kmp.project.codealpha_ecommerce.Model.SliderModel
-import kmp.project.codealpha_ecommerce.SliderAdapter
+import kmp.project.codealpha_ecommerce.Adapter.SliderAdapter
 import kmp.project.codealpha_ecommerce.ViewModel.MainViewModel
 import kmp.project.codealpha_ecommerce.databinding.ActivityMainBinding
 
