@@ -3,11 +3,13 @@ package kmp.project.codealpha_ecommerce.activity
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
-import kmp.project.codealpha_ecommerce.Model.SliderModel
+import kmp.project.codealpha_ecommerce.Adapter.BrandAdapter
 import kmp.project.codealpha_ecommerce.Adapter.SliderAdapter
+import kmp.project.codealpha_ecommerce.Model.SliderModel
 import kmp.project.codealpha_ecommerce.ViewModel.MainViewModel
 import kmp.project.codealpha_ecommerce.databinding.ActivityMainBinding
 
@@ -19,10 +21,12 @@ class MainActivity : BaseActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         initBanners()
+        initBrand()
 
     }
+
+    // Banners
 
     private fun initBanners() {
         binding.progressBarBanner.visibility = View.VISIBLE
@@ -49,4 +53,19 @@ class MainActivity : BaseActivity() {
             binding.dotIndicator.attachTo(binding.viewPageSlider)
         }
     }
+
+
+    //Brands
+
+    private fun initBrand() {
+        binding.progressBarBrand.visibility = View.VISIBLE
+        viewModel.brands.observe(this, Observer {
+            binding.viewBrand.layoutManager =
+                LinearLayoutManager(this@MainActivity, LinearLayoutManager.HORIZONTAL, false)
+            binding.viewBrand.adapter = BrandAdapter(it)
+            binding.progressBarBrand.visibility = View.GONE
+        })
+        viewModel.loadBrand()
+    }
+
 }
