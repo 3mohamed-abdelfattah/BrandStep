@@ -8,6 +8,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import kmp.project.codealpha_ecommerce.Model.BrandModel
+import kmp.project.codealpha_ecommerce.Model.ItemModel
 import kmp.project.codealpha_ecommerce.Model.SliderModel
 
 class MainViewModel : ViewModel() {
@@ -16,7 +17,9 @@ class MainViewModel : ViewModel() {
 
     private val _banner = MutableLiveData<List<SliderModel>>()
     private val _brand = MutableLiveData<MutableList<BrandModel>>()
+    private val _popular = MutableLiveData<MutableList<ItemModel>>()
 
+    val popular: LiveData<MutableList<ItemModel>> = _popular
     val brands: LiveData<MutableList<BrandModel>> = _brand
     val banner: LiveData<List<SliderModel>> = _banner
 
@@ -51,6 +54,26 @@ class MainViewModel : ViewModel() {
                     }
                 }
                 _brand.value = lists
+            }
+
+            override fun onCancelled(error: DatabaseError) {}
+        })
+    }
+
+
+
+    fun loadPopular() {
+        val ref = firebaseDatabase.getReference("Items")
+        ref.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                val lists = mutableListOf<ItemModel>()
+                for (childSnapShot in snapshot.children) {
+                    val list = childSnapShot.getValue(ItemModel::class.java)
+                    if (list != null) {
+                        lists.add(list)
+                    }
+                }
+                _popular.value = lists
             }
 
             override fun onCancelled(error: DatabaseError) {}
