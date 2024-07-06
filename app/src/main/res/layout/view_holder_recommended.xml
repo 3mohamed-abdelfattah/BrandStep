@@ -28,7 +28,7 @@
         app:tint="@color/grey" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/priceTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -47,9 +47,9 @@
         android:text="5"
         android:textColor="@color/black"
         android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintBottom_toBottomOf="@+id/priceTxt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView9" />
+        app:layout_constraintTop_toTopOf="@+id/priceTxt" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -74,5 +74,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/priceTxt" />
 </androidx.constraintlayout.widget.ConstraintLayout>
