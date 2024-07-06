@@ -3,11 +3,13 @@ package kmp.project.codealpha_ecommerce.activity
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import kmp.project.codealpha_ecommerce.Adapter.BrandAdapter
+import kmp.project.codealpha_ecommerce.Adapter.PopularAdapter
 import kmp.project.codealpha_ecommerce.Adapter.SliderAdapter
 import kmp.project.codealpha_ecommerce.Model.SliderModel
 import kmp.project.codealpha_ecommerce.ViewModel.MainViewModel
@@ -23,6 +25,7 @@ class MainActivity : BaseActivity() {
 
         initBanners()
         initBrand()
+        initPopular()
 
     }
 
@@ -66,6 +69,19 @@ class MainActivity : BaseActivity() {
             binding.progressBarBrand.visibility = View.GONE
         })
         viewModel.loadBrand()
+    }
+
+
+    //Popular
+
+    private fun initPopular() {
+        binding.progressBarRecommend.visibility = View.VISIBLE
+        viewModel.popular.observe(this, Observer {
+            binding.viewRecommend.layoutManager = GridLayoutManager(this@MainActivity, 2)
+            binding.viewRecommend.adapter = PopularAdapter(it)
+            binding.progressBarRecommend.visibility = View.GONE
+        })
+        viewModel.loadPopular()
     }
 
 }
