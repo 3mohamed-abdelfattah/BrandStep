@@ -61,7 +61,6 @@ class MainViewModel : ViewModel() {
     }
 
 
-
     fun loadPopular() {
         val ref = firebaseDatabase.getReference("Items")
         ref.addValueEventListener(object : ValueEventListener {
