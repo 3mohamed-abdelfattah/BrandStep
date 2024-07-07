@@ -77,6 +77,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.dotsindicator)
     implementation(libs.glide)
-
-
+    implementation(libs.gson)
 }
