@@ -1,16 +1,18 @@
 package kmp.project.codealpha_ecommerce.Adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.request.RequestOptions
-import kmp.project.codealpha_ecommerce.Model.ItemModel
+import kmp.project.codealpha_ecommerce.Model.ItemsModel
+import kmp.project.codealpha_ecommerce.activity.DetailActivity
 import kmp.project.codealpha_ecommerce.databinding.ViewHolderRecommendedBinding
 
-class PopularAdapter(val items: MutableList<ItemModel>) :
+class PopularAdapter(val items: MutableList<ItemsModel>) :
     RecyclerView.Adapter<PopularAdapter.ViewHolder>() {
 
     private var context: Context? = null
@@ -37,9 +39,11 @@ class PopularAdapter(val items: MutableList<ItemModel>) :
             .apply(requestOptions)
             .into(holder.binding.pic)
 
-//        holder.itemView.setOnClickListener {
-//            val intent = Intent(holder.itemView.context)
-//        }
+        holder.itemView.setOnClickListener {
+            val intent = Intent(holder.itemView.context, DetailActivity::class.java)
+            intent.putExtra("object", items[position])
+            holder.itemView.context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int = items.size
