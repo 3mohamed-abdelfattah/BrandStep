@@ -24,6 +24,8 @@ Welcome to **BrandStep**, your ultimate eCommerce app for purchasing the latest 
 <img src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/6962aa83-9955-42c4-a574-2765b2a405d9" alt="BrandStep App" width="300"/>
 <img src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/2b17912c-c91a-4439-a962-3f53fb4c762f" alt="BrandStep App" width="300"/>
 <img src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/805c8d72-4207-4f56-9a98-04901b54f43c" alt="BrandStep App" width="300"/>
+<img src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/cd1fd707-6747-4751-9470-ca5e3bf27141" alt="BrandStep App" width="300"/>
+
 
 
 ---
@@ -46,6 +48,14 @@ Welcome to **BrandStep**, your ultimate eCommerce app for purchasing the latest 
     <td><img src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/0cf3c7f4-31a7-4fdd-8570-2eac917b23b6" alt="BrandStep Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
 </table>
+
+---
+## Snapshot from my Device
+
+<iframe src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/6fde80db-fa38-458f-8cb1-8c9b902ccd98" alt="BrandStep App" width="350"/>
+
+
+https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/6fde80db-fa38-458f-8cb1-8c9b902ccd98
 
 
 ## Contributing
