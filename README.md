@@ -7,7 +7,7 @@ Welcome to **BrandStep**, your ultimate eCommerce app for purchasing the latest 
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [CodeAlpha Internship](#CodeAlphaAppDevelopmentInternship)
+- [CodeAlpha Internship](#codeAlphaappdevelopmentinternship)
 
 ## Features
 
@@ -25,6 +25,9 @@ Welcome to **BrandStep**, your ultimate eCommerce app for purchasing the latest 
 <img src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/2b17912c-c91a-4439-a962-3f53fb4c762f" alt="BrandStep App" width="300"/>
 <img src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/805c8d72-4207-4f56-9a98-04901b54f43c" alt="BrandStep App" width="300"/>
 
+
+---
+## Screenshots from my Environment
 
  <table align="center">
   <tr>
@@ -85,7 +88,7 @@ We welcome contributions from the community! To contribute to BrandStep, follow 
 
 
 
-
+---
 # CodeAlpha App Development Internship
 
 
