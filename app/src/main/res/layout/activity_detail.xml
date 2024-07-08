@@ -82,13 +82,13 @@
 
                 <TextView
                     android:id="@+id/titleText"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="23sp"
-                    android:text="title" />
+                    android:text="@string/title" />
 
                 <TextView
                     android:id="@+id/priceText"
@@ -113,7 +113,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Select Size"
+                    android:text="@string/select_size"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:textSize="14sp"/>
@@ -165,7 +165,7 @@
 
                     android:background="@drawable/purple_bg"
                     android:layout_weight="1"
-                    android:text="Buy Now" />
+                    android:text="@string/buy_now" />
 
                 <ImageButton
                     android:id="@+id/cartBtn"

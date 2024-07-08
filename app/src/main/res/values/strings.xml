@@ -13,4 +13,15 @@
     <string name="whishlist">Whishlist</string>
     <string name="cart">Cart</string>
     <string name="explorer">Explorer</string>
+    <string name="barndstep">BarndStep</string>
+    <string name="my_cart">My Cart</string>
+    <string name="your_cart_empty">Your Cart Empty</string>
+    <string name="check_out">Check Out</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="fee_delivery">Fee Delivery</string>
+    <string name="total_tax">Total Tax</string>
+    <string name="total">Total</string>
+    <string name="title">title</string>
+    <string name="select_size">Select Size</string>
+    <string name="buy_now">Buy Now</string>
 </resources>
