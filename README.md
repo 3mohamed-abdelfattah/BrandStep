@@ -96,17 +96,5 @@ We welcome contributions from the community! To contribute to BrandStep, follow 
 
 
 ---
-# CodeAlpha App Development Internship
-
-
-![CodeAlpha](https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/b9a256d7-15c8-4112-82be-fb2d40bfe0a2)
-
-### Task 2: E-Commerce Application
-
-
-![image](https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/f9fa4a9c-2af3-458a-b523-de3703ef1d14)
-
-
----
 
 Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.
