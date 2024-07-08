@@ -1,5 +1,6 @@
 package kmp.project.codealpha_ecommerce.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
@@ -26,7 +27,14 @@ class MainActivity : BaseActivity() {
         initBanners()
         initBrand()
         initPopular()
+        initBottomMenu()
+    }
 
+    // Bottom Menu
+    private fun initBottomMenu() {
+        binding.cartBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, CartActivity::class.java))
+        }
     }
 
     // Banners
