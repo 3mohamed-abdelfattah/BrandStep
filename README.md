@@ -7,7 +7,7 @@ Welcome to **BrandStep**, your ultimate eCommerce app for purchasing the latest 
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [CodeAlpha Internship](#codeAlphaappdevelopmentinternship)
+- [CodeAlpha Internship](#codealpha-app-development-internship)
 
 ## Features
 
