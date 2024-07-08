@@ -52,9 +52,6 @@ Welcome to **BrandStep**, your ultimate eCommerce app for purchasing the latest 
 ---
 ## Snapshot from my Device
 
-<iframe src="https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/6fde80db-fa38-458f-8cb1-8c9b902ccd98" alt="BrandStep App" width="350"/>
-
-
 https://github.com/3mohamed-abdelfattah/CodeAlpha-eCommerce/assets/142848460/6fde80db-fa38-458f-8cb1-8c9b902ccd98
 
 
