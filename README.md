@@ -91,10 +91,10 @@ We welcome contributions from the community! To contribute to BrandStep, follow 
     Go to the original repository on GitHub and create a new pull request.
 
 
-<h2 align="center">Thank you for using BrandStep! Happy shopping!</h1>
+<h2 align="center">Thank you for using BrandStep! Happy shopping!</h2>
 
 
 
 ---
 
-Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.
+<h4 align="center">Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.</h4>
